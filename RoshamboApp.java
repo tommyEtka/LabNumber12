@@ -100,35 +100,35 @@ public class RoshamboApp {
 					System.out.println("TIE!! You both win!");
 
 				} else if (userInput.equalsIgnoreCase("r")
-						&& rm.equalsIgnoreCase("scissors")) {
-					System.out.println("You win!");
-
-				} else if (userInput.equalsIgnoreCase("r")
 						&& rm.equalsIgnoreCase("paper")) {
 					System.out.println("TheSharks win!");
 
-				} else if (userInput.equalsIgnoreCase("p")
-						&& rd.generateRoshambo().equalsIgnoreCase("paper")) {
-					System.out.println("TIE!! You both win!");
-
-				} else if (userInput.equalsIgnoreCase("p")
-						&& rd.generateRoshambo().equalsIgnoreCase("rock")) {
-					System.out.println("TheSharks wins");
-
-				} else if (userInput.equalsIgnoreCase("p")
-						&& rd.generateRoshambo().equalsIgnoreCase("scissors")) {
+				} else if (userInput.equalsIgnoreCase("r")
+						&& rm.equalsIgnoreCase("scissors")) {
 					System.out.println("You win!!");
 
+				} else if (userInput.equalsIgnoreCase("p")
+						&& rm.equalsIgnoreCase("paper")) {
+					System.out.println("TIE!! You both win!");
+
+				} else if (userInput.equalsIgnoreCase("p")
+						&& rm.equalsIgnoreCase("rock")) {
+					System.out.println("You win!!");
+
+				} else if (userInput.equalsIgnoreCase("p")
+						&& rm.equalsIgnoreCase("scissors")) {
+					System.out.println("TheShark Wins!!");
+
 				} else if (userInput.equalsIgnoreCase("s")
-						&& rd.generateRoshambo().equalsIgnoreCase("scissors")) {
+						&& rm.equalsIgnoreCase("scissors")) {
 					System.out.println("TIE!! You both win!");
 
 				} else if (userInput.equalsIgnoreCase("s")
-						&& rd.generateRoshambo().equalsIgnoreCase("rock")) {
+						&& rm.equalsIgnoreCase("rock")) {
 					System.out.println("TheShark wins");
 
 				} else if (userInput.equalsIgnoreCase("s")
-						&& rd.generateRoshambo().equalsIgnoreCase("paper")) {
+						&& rm.equalsIgnoreCase("paper")) {
 					System.out.println("You win!!");
 
 				}
