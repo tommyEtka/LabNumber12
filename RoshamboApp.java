@@ -12,8 +12,8 @@ public class RoshamboApp {
 		Scanner scan1 = new Scanner(System.in);
 		RockPlayer rp = new RockPlayer(null);
 		RandomPlayer rd = new RandomPlayer();
-		String rm = rd.generateRoshambo();
-		// String rm;
+		// String rm = rd.generateRoshambo();
+		String rm = "";
 
 		System.out.println("Welcome to Rock Paper Scissors!");
 		System.out.println("Enter your name:");
@@ -63,7 +63,7 @@ public class RoshamboApp {
 			} // the end of the j
 
 			else {
-
+				rm = rd.generateRoshambo(); //THIS IS IMPORTANT
 				userInput.equalsIgnoreCase("s"); // SHARK CASE
 				System.out.println("Rock, paper, or scissors? (r/p/s)");
 
